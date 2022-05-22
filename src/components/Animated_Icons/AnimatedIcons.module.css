@@ -1,0 +1,10 @@
+.container {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    margin-top: 30px;
+    /*position: absolute;*/
+    /*top: 100px;*/
+    /*left: 5%;*/
+}
+

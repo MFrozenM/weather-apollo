@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+
+
+  /*background: #0F2027;  !* fallback for old browsers *!*/
+  /*background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  !* Chrome 10-25, Safari 5.1-6 *!*/
+  /*background: linear-gradient(to top, #2C5364, #203A43, #0F2027); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+
+  /*background: #a8c0ff;*/
+  /*background: -webkit-linear-gradient(to right, #3f2b96, #2C5364);  !* Chrome 10-25, Safari 5.1-6 *!*/
+  /*background: linear-gradient(to right, #3f2b96, #2C5364); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+  /*background-color: #FBAB7E;*/
+  /*background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);*/
+  /*background-image: linear-gradient(135deg, #667eea 0%, #330867 100%);*/
+  background-image: linear-gradient(135deg, #666dea 0%, #330867 100%);
+  /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+}
+
+.icon {
+  width: 300px;
+  height: auto;
+}

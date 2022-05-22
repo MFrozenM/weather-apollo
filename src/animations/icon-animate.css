@@ -1,0 +1,45 @@
+.icon-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.icon-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 500ms, opacity 500ms;
+}
+
+.icon-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.icon-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: transform 500ms, opacity 500ms;
+}
+
+/*   Reverse   */
+
+.icon-reverse-enter {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.icon-reverse-enter-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: transform 500ms, opacity 500ms;
+}
+
+.icon-reverse-exit {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.icon-reverse-exit-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 500ms, opacity 500ms;
+}

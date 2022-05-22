@@ -1,0 +1,8 @@
+.container {
+    width: auto;
+    height: auto;
+    min-height: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}

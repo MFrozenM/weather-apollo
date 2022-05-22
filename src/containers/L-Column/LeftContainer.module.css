@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    /*background-color: #24675b;*/
+}
+
+.search_city {
+    width: auto;
+    height: 55px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+    padding: 0 20px;
+    display: flex;
+    left: 2.5%;
+    justify-content: center;
+    background-color: #3c1053;
+    align-items: center;
+    border-radius: 10px;
+    transition: color 300ms;
+}
+
+.search_city:hover {
+    cursor: pointer;
+    color: #dcdcdc;
+}
